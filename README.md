@@ -24,14 +24,15 @@ This project implements a Q-learning-based dynamic pricing system for ride-shari
 ## Installation  
 1. Clone this repository:  
    ```bash  
-   git clone https://github.com/your-username/dynamic-pricing.git
+   git clone https://github.com/Salman-Javaid-Hub/Dynamic-Pricing-.git  
 ## Usage
 1. Place your data file in the data/ folder.
-2. Run main.py to execute the model and visualize results:
+2. Update the dataset path in main.py to match the location of your data file.
+3. Run main.py to execute the model and visualize results:
    ```bash
     python main.py
    
-## Installation 
+## Key Components 
 - Sequential decision framework with state and action variables.
 - Q-learning with epsilon-greedy strategy for action selection.
 - Real-time adaptation to changing supply-demand and external conditions.
